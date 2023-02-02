@@ -1,110 +1,78 @@
-  /*--------------------------------------
-  Basis
-  ---------------------------------------*/
-  
-  html {
-    width:100%;
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    opacity: 0.9;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    background-color: #003770;
-    height: 2000px;
-}
+<!DOCTYPE html>
+<html lang="ja">
 
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+<head>
 
-a {
-  text-decoration: none;
-  color: black;
-}
+    <link href="style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/favicon.ico">
 
-li {
-  list-style: none;
-}
+    <title>おのば ほたるの会</title>
 
-a:hover {
-  opacity: 0.7;
-}
+    <!--SEO対策 -->
+　　<meta name="description"  content="" />
+    <meta content='' name='keywords'>
+    <!--SEO対策 -->
 
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+    <!-- OGP設定 -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <!-- /OGP設定 -->
 
-/*--------------------------------------
-top-menu
----------------------------------------*/
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-177059165-1"></script>
+    <script>
+         window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-177059165-1');
+    </script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script src="//kitchen.juicer.cc/?color=fWPw3L/956o=" async></script>
+
+</head>
+<body>
+    <div class = "content">
+        
+        <div class="top-menu">
+            <ul class = "top-menu-list">
+                <li><a href="">TOP</a></li>
+                <li><a href="">活動のご紹介</a></li>
+                <li><a href="">活動事例のご紹介</a></li>
+                <li><a href="">ホタル会の概要</a></li>
+                <li><a href="">お問い合わせ</a></li>
+            </ul>
+        </div>
+
+        <div class="main-visual">
+            <img class ="main-visual-img" src="image/home.jpg">
+        </div>
+
+        <div class ="main-text">
+            <p>
+                この法人は、自然と人との共存可能な社会の構築のために、<br>
+                環境保全活動及び青少年の教育・学習の取り組みを推進し、<br>
+                美しい田園「ホタルの住める故郷」に向けて活動する。
+            </p>
+        </div>
+
+        <div class="news-box">
+            <div class="news-title">最新情報</div>
+            <div class="news-box-content">
+                <p>2022.12.31 ホームページを開設しました。どんどん更新していきます。</p>
+            </div>
+
+        </div>
+
+    </div>
 
 
-.top-menu{
-    width: 70%;
-}
-
-.top-menu-list {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.top-menu-list li{
-    width: 10rem;
-    padding: 5px;
-    background-color: yellow;
-    text-align: center;
-    font-weight: bold;
-}
-
-/*--------------------------------------
-main-visulal
----------------------------------------*/
-.main-visual{
-  width: 50%;
-}
-
-.main-visual img{
-  width: 100%;
-}
-
-/*--------------------------------------
-main-text
----------------------------------------*/
-.main-text{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.main-text p{
-  font-size: 1.5rem;
-  color: white;
-  font-family:Yu Mincho;
-}
-
-/*--------------------------------------
-news
----------------------------------------*/
-.news-box {
-  margin-top: 30px;
-  background-color: white;
-  width: 50%;
-  padding: 30px;
-  font-family:Yu Mincho;
-  height: 250px;
-}
-
-.news-title {
-  text-decoration: solid black 1px;
-  font-size: 1.2rem;
-  border-bottom: 1px solid black;
-
-}
+    
+</body>
