@@ -8,15 +8,19 @@
     padding: 0;
     font-size: 1rem;
     opacity: 0.9;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     background-color: #003770;
-    height: 2000px;
-}
+    height: 20000px;
+    font-family:Yu Mincho;
+    line-height: 40px;
+  }
 
 body {
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -37,10 +41,12 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding: 0;
 }
+
+
 
 /*--------------------------------------
 top-menu
@@ -48,7 +54,9 @@ top-menu
 
 
 .top-menu{
-    width: 70%;
+    width: 80%;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    margin-top: 70px;
 }
 
 .top-menu-list {
@@ -107,4 +115,120 @@ news
   font-size: 1.2rem;
   border-bottom: 1px solid black;
 
+}
+
+/*--------------------------------------
+content-details
+---------------------------------------*/
+.content-details {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.division-title {
+  margin: 150px 0px 30px 0px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.division-subtitle {
+  margin: 80px 0px 10px 0px;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 1px white solid;
+}
+
+/*--------------------------------------
+philosophy
+---------------------------------------*/
+.philosophy-text {
+  color: white;
+  font-size: 1.2rem;
+}
+
+/*--------------------------------------
+activity
+---------------------------------------*/
+.activity {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.activity-content {
+  margin-left: 20px;
+}
+
+.activity-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.activity-img img{
+  width: 80%;
+}
+
+/*--------------------------------------
+activity2
+---------------------------------------*/
+.activity2 {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.activity2-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.activity2-img img{
+  width: 80%;
+}
+
+/*--------------------------------------
+information
+---------------------------------------*/
+.information {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.information a{
+  color: yellow;
+  font-size: 1.2rem;
+  text-decoration: solid 1px white;
+  
+}
+
+/*--------------------------------------
+inquiry
+---------------------------------------*/
+.inquiry {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.radio-section {
+  display: flex;
+  flex-direction: column;
 }
