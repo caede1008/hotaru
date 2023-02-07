@@ -40,13 +40,13 @@
 </head>
 <body>
     <div class = "content">
-        <div class="top-menu">
+        <div class="top-menu" id="top">
             <ul class = "top-menu-list">
-                <li><a href="">TOP</a></li>
-                <li><a href="">活動のご紹介</a></li>
-                <li><a href="">活動事例のご紹介</a></li>
-                <li><a href="">ホタル会の概要</a></li>
-                <li><a href="">お問い合わせ</a></li>
+                <li><a href="index.html#top">TOP</a></li>
+                <li><a href="index.html#activity">活動のご紹介</a></li>
+                <li><a href="index.html#activity2">活動事例のご紹介</a></li>
+                <li><a href="index.html#information">ホタル会の概要</a></li>
+                <li><a href="index.html#inquiry">お問い合わせ</a></li>
             </ul>
         </div>
 
@@ -80,7 +80,7 @@
                     私たちは「自然と人との共存可能な社会の構築」のために、更に活動の範囲を広げて行きます。この活動は数世代におよぶことが予想されますが、将来を担う青少年に豊かな自然を残す決意です。
                 </div>
             </div>
-            <div class = "activity">
+            <div class = "activity" id="activity">
                     <div class="division-title">
                         活動実績
                     </div>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class = "activity2">
+                <div class = "activity2" id="activity2">
                     <div class="division-title">
                         活動内容
                     </div>
@@ -226,7 +226,7 @@
                         ●業務支援団体（６団体）<br>
                     </div>
                 </div>
-                <div class = "information">
+                <div class = "information" id="information">
                     <div class="division-title">
                         公開情報
                     </div>
@@ -267,35 +267,77 @@
 
                     </div>
                 </div>
-                <div class = "inquiry">
+                <div class = "inquiry" id="inquiry">
                     <div class="division-title">
                         お問い合わせ
                     </div>
                     <div class = "inquiry-content">
-                        <div class="radio-section">
-                            <div class="radio-selection">
-                                <input type="radio" name="example" value="">入金方法
+                        <form action ="" method="post">
+                            <div class="radio-content">
+                                <div class="radio-selection">
+                                    <input type="radio" name="example" value="">入金方法
+                                </div>
+                                <div class="radio-selection">
+                                    <input type="radio" name="example" value="">送金方法
+                                </div>
+                                <div class="radio-selection">
+                                    <input type="radio" name="example" value="">業務支援／講師派遣
+                                </div>
+                                <div class="radio-text">
+                                    業務支援の具体的な内容やご予算をはじめ、どんな些細なことでもお気軽にお問い合わせください
+                                </div>
                             </div>
-                            <div class="radio-selection">
-                                <input type="radio" name="example" value="">送金方法
+                            <div class="name-content">
+                                <label>名前（必須項目）：</label>
+                                <input class="name-input">
                             </div>
-                            <div class="radio-selection">
-                                <input type="radio" name="example" value="">業務支援／講師派遣
+                            <div class="email-content">
+                                <label>E-mail（必須項目）：</label>
+                                <input class="email-input">
                             </div>
-                             
-                        </div>
-
+                            <div class="affiliation-content">
+                                <label>ご所属：</label>
+                                <input class="affliation-input">
+                            </div>
+                            <div class="inquiry-type">
+                                <div class="inquiry-radio">
+                                    <input type="checkbox" name="example" value="">非営利団体・公益法人向け活動支援
+                                </div>
+                                <div class="inquiry-radio">
+                                    <input type="checkbox" name="example" value="">広報・啓発活動
+                                </div>
+                                <div class="inquiry-radio">
+                                    <input type="checkbox" name="example" value="">研修会・勉強会講師
+                                </div>
+                                <div class="inquiry-radio">
+                                    <input type="checkbox" name="example" value="">その他
+                                </div>
+                            </div>
+                            <div class="inquiry-details">
+                                <label>お問い合わせ内容</label>
+                                <textarea class="inquiry-details-text" style="overflow:scroll"></textarea>
+                            </div>
+                            <div class ="inquery-submit">
+                                <button class="inquery-button">送信する</button>
+                            </div>
+                            
+                        </form>
                     </div>
-                    
+                    <div class="contact">
+                        <div class="contact-content">
+                            連絡先<br>
+                            ＮＰО法人おのばホタル会<br>
+                            〒010-1424　秋田市御野場5-16-1<br>
+                            Tel 018-853-7860 fax 018-853-7861<br>
+                            Handy 090-8783-4792<br>
+                            e-mail:sakamoto.kouetu@khaki.plala.or.jp<br>
+                            理事長　坂本公悦<br>
+                            </div>
+                    </div>
                 </div>
             </div>
-
+            
         </div>
-        
-
     </div>
-
-
-    
 </body>
 </html>
